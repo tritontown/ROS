@@ -6,13 +6,13 @@ to run, dl files into catkin_ws/apriltag on a system with ROS.
 
 next, run $ roscore.
 
-then, $ ./april_tag.py
+then, $ python tagDet.py
 
-then, $ ./rvizSim.py
+then, $ python rvizSim.py
 
 then, $ rosrun rviz rviz
 
-inside rviz, add a marker. change the marker's topic to /marker_redball.
+inside rviz, add a MarkerArray. change the marker's topic to /tagLoc.
 
 inside rviz, change "fixed frame" to /base_link.
 
